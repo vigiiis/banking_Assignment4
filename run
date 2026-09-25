@@ -1,0 +1,4 @@
+javac -d classes src/app/*.java
+javac  -d classes test.java
+jar -c -f lib/assignment4.jar -C classes .
+java -cp lib/assignment4.jar:. test
